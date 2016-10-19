@@ -16,6 +16,7 @@
 		3B36B31B1DB5FEEE0060496A /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B36B31A1DB5FEEE0060496A /* TodayViewController.swift */; };
 		3B36B31E1DB5FEEE0060496A /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B36B31C1DB5FEEE0060496A /* MainInterface.storyboard */; };
 		3B36B3221DB5FEEE0060496A /* Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3B36B3151DB5FEEE0060496A /* Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3B39650D1DB70A910047CDE4 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B39650C1DB70A910047CDE4 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		3B36B31F1DB5FEEE0060496A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B36B3271DB6152C0060496A /* Polyglot.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Polyglot.entitlements; sourceTree = "<group>"; };
 		3B36B3281DB6157B0060496A /* Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Widget.entitlements; sourceTree = "<group>"; };
+		3B39650C1DB70A910047CDE4 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				3B36B3061DB5D6160060496A /* Assets.xcassets */,
 				3B36B3081DB5D6160060496A /* LaunchScreen.storyboard */,
 				3B36B30B1DB5D6160060496A /* Info.plist */,
+				3B39650C1DB70A910047CDE4 /* TestViewController.swift */,
 			);
 			path = Polyglot;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B36B3021DB5D6160060496A /* ViewController.swift in Sources */,
+				3B39650D1DB70A910047CDE4 /* TestViewController.swift in Sources */,
 				3B36B3001DB5D6160060496A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

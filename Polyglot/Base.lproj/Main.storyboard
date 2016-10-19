@@ -51,6 +51,48 @@
             </objects>
             <point key="canvasLocation" x="1036" y="130.88455772113943"/>
         </scene>
+        <!--Test View Controller-->
+        <scene sceneID="RXe-AS-g4s">
+            <objects>
+                <viewController storyboardIdentifier="Test" id="h5C-qu-5Vz" customClass="TestViewController" customModule="Polyglot" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PQH-aw-VU4"/>
+                        <viewControllerLayoutGuide type="bottom" id="5KW-eF-ziq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lZF-YG-aMz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="uhk-2k-lnd">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How do you speak this in English?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qw2-9L-MOg">
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lac da" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vNr-Yn-v8W">
+                                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="40"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="uhk-2k-lnd" firstAttribute="centerX" secondItem="lZF-YG-aMz" secondAttribute="centerX" id="DL6-0R-IsH"/>
+                            <constraint firstItem="uhk-2k-lnd" firstAttribute="centerY" secondItem="lZF-YG-aMz" secondAttribute="centerY" id="E45-I3-xpT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="promt" destination="vNr-Yn-v8W" id="QYf-VL-Izo"/>
+                        <outlet property="stackView" destination="uhk-2k-lnd" id="hV0-KS-Nbu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pEk-Ta-mhW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1780" y="131"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="1r0-Wb-ME4">
             <objects>
